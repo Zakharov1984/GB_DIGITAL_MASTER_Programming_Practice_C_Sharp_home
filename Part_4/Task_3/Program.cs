@@ -16,7 +16,7 @@ void printArray(int[] array) {
         totalStringOfelementsOfarray += $"{array[i]}, ";
     }
 
-    totalStringOfelementsOfarray += $"{totalStringOfelementsOfarray.Length - 1} ]";
+    totalStringOfelementsOfarray += $"{array[array.Length - 1]} ]";
 
     Console.WriteLine($"Массив из {array.Length}: {totalStringOfelementsOfarray}");
 }
